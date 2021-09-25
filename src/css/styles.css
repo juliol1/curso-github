@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: coral;
+    background-color: orangered;
     color: papayawhip;
 }
 
@@ -13,24 +13,28 @@
 }
 
 body {
-    background-color: coral;
+    background-color: orangered;
 }
 
 .post {
     display: grid;
-    grid-area: 5 / 2;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .post__container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 20px;
+    border: 2px solid coral;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.2);
+
 }
 
 .post__title {
-    padding-left: 10px;
+    padding-left: 20px;
     color: papayawhip;
     font-style: italic;
     font-weight: bold;
