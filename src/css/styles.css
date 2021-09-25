@@ -30,6 +30,7 @@ body {
     border: 2px solid coral;
     border-radius: 30px;
     background-color: rgba(255,255,255,0.2);
+    font-family: 'Courier New';
 
 }
 
@@ -42,7 +43,6 @@ body {
 }
 
 .post__container--par {
-    font-style: oblique;
     color: papayawhip;
     font-size: 22px;
 }
