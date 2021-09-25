@@ -1,5 +1,5 @@
 .header {
-    background-color: coral;
+    background-color:royalblue;
     color: papayawhip;
 }
 
@@ -23,6 +23,7 @@
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    font-family: 'sans-serif';
     margin: 10px;
     background-color: rgba(255,255,255,0.1);
     border: 2px solid papayawhip;
@@ -33,7 +34,7 @@
 }
 
 body {
-    background-color: coral;
+    background-color: royalblue;
 }
 
 .post {
@@ -48,11 +49,12 @@ body {
     align-items: flex-start;
     justify-content: flex-start;
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     border: 2px solid papayawhip;
     border-radius: 30px;
     background-color: rgba(255,255,255,0.1);
-    font-family: 'Courier New';
+    font-family: 'sans-serif';
     -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
     box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
@@ -62,7 +64,6 @@ body {
 .post__title {
     padding-left: 20px;
     color: papayawhip;
-    font-style: italic;
     font-weight: bold;
     font-size: 25px;
 }
