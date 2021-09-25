@@ -1,0 +1,23 @@
+{
+  "name": "curso-github",
+  "version": "1.0.0",
+  "description": "Curso sobre el manejo de github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliol1/curso-github.git"
+  },
+  "keywords": [
+    "github",
+    "curso"
+  ],
+  "author": "juliol1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliol1/curso-github/issues"
+  },
+  "homepage": "https://github.com/juliol1/curso-github#readme"
+}
