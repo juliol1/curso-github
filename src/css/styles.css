@@ -84,3 +84,36 @@ body {
     color: papayawhip;
     font-size: 22px;
 }
+
+.footer {
+    height: 50px;
+    background-color: tomato;
+    margin: 0px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.item {
+    margin: 10px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.item > a {
+    text-decoration: none;
+    display: inline-block;
+    color: papayawhip;
+
+}
+
+.item > a:hover {
+    text-decoration: underline;
+    color: royalblue;
+
+}
