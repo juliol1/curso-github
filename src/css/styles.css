@@ -1,6 +1,8 @@
 .header {
-    background-color:royalblue;
+    background-color:tomato;
     color: papayawhip;
+    height: 80px;
+    margin-top: 15px;
 }
 
 .header__container{
@@ -44,7 +46,7 @@
 }
 
 body {
-    background-color: royalblue;
+    background-color: tomato;
 }
 
 .post {
