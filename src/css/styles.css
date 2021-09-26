@@ -15,6 +15,9 @@
     border: 2px solid papayawhip;
     background-color: rgba(255,255,255,0.5);
     border-radius: 25px;
+    -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
 }
 
 .img:hover {
