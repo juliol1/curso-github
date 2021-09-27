@@ -87,6 +87,14 @@ body {
     font-size: 22px;
 }
 
+.post__container--photo {
+    width: 150px;
+    border-radius: 10px;
+    -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+}
+
 .plus__container {
     display: flex;
     justify-content: flex-end;
