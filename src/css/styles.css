@@ -60,7 +60,7 @@ body {
 .post__container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     margin-right: 20px;
     margin-bottom: 20px;
