@@ -82,3 +82,18 @@ body {
     color: papayawhip;
     font-size: 22px;
 }
+
+.plus__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.plus__container--img {
+    height: 36px;
+    transition: transform .2ms;
+}
+
+.plus__container--img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
