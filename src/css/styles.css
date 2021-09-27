@@ -1,6 +1,8 @@
 .header {
-    background-color:royalblue;
+    background-color:tomato;
     color: papayawhip;
+    height: 80px;
+    margin-top: 15px;
 }
 
 .header__container{
@@ -18,10 +20,12 @@
     -webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
     box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.4);
+    transition: transform .2s;
 }
 
 .img:hover {
     cursor: pointer;
+    transform: scale(2);
 }
 
 .header__title {
@@ -44,7 +48,7 @@
 }
 
 body {
-    background-color: royalblue;
+    background-color: tomato;
 }
 
 .post {
